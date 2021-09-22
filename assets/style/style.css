@@ -6,13 +6,68 @@ a{
 .text{
     font-family: 'Amatic SC', cursive;
     font-size:5rem;
- 
-    position:absolute
+    
+    position:absolute;
     
 }
 
 .image{
     width:100%;
-    position:absolute;
+    padding-top :60px;
     z-index: -99;
+}
+#background-container{
+    background:rgb(251, 255, 255)
+}
+.artigo{
+    width: 100%;
+
+}
+.card{
+    padding-top:0.9rem;
+}
+.footer{
+    display: flex;
+    justify-content:center
+}
+
+.image-carrossel{
+    height:50rem;
+    width:100%;
+}
+
+hr.new5 {
+    
+    border-top: 2px solid green;
+    border-radius: 5px;
+  }
+
+  .image-quemsomos{
+        width:100%; 
+      height:30rem;
+  }
+  .text-quemsomos{
+    font-family: 'Amatic SC', cursive;
+    font-size:3rem;
+
+  }
+  #text-quemsomos{
+      padding-top:5%;
+  
+  }
+  .linha-vertical {
+    height: 100px;/*Altura da linha*/
+    border-left: 2px solid;/* Adiciona borda esquerda na div como ser fosse uma linha.*/
+    position:absolute
+  }
+
+  .padding-top {
+      padding-top:5%
+  }
+.text-italic {
+    font-family: 'Libre Baskerville', serif;
+
+}
+.image-artigo{
+ height: 80%;
 }
