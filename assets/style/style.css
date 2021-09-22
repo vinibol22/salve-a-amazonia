@@ -1,0 +1,18 @@
+
+a{
+
+    font-family: 'Catamaran', sans-serif;
+}  
+.text{
+    font-family: 'Amatic SC', cursive;
+    font-size:5rem;
+ 
+    position:absolute
+    
+}
+
+.image{
+    width:100%;
+    position:absolute;
+    z-index: -99;
+}
